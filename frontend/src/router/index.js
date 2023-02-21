@@ -94,7 +94,11 @@ const routes = [
         name: "alpha_lab",
         component: AlphaLabView,
     },
-  
+    {
+        path: "/reward_event",
+        name: "reward_event",
+        component: RewardEvent,
+    },
 ];
 
 const router = createRouter({
